@@ -1,0 +1,214 @@
+# Vanilla Death Message Substitutions
+#
+# Use the corresponding vanilla translation key to override a message.
+# You can provide multiple formats per key, and one will be chosen randomly.
+#
+# Supported Placeholders (if the vanilla message supports them):
+# <arg0> - Usually the player
+# <arg1> - Usually the killer or block/damage source
+# <arg2> - Usually the weapon/item used
+# <player> - Alias for <arg0>
+# <killer> - Alias for <arg1>
+# <item> - Alias for <arg2>
+#
+# Format: MiniMessage (https://docs.advntr.dev/minimessage/format.html)
+
+messages:
+  death.attack.anvil:
+    - "<gray><gold><player></gold> was squashed by a falling anvil</gray>"
+  death.attack.anvil.player:
+    - "<gray><gold><player></gold> was squashed by a falling anvil while fighting <red><killer></red></gray>"
+  death.attack.arrow:
+    - "<gray><gold><player></gold> was shot by <red><killer></red></gray>"
+  death.attack.arrow.item:
+    - "<gray><gold><player></gold> was shot by <red><killer></red> using <item></gray>"
+  death.attack.badRespawnPoint.link:
+    - "<gray>Intentional Game Design</gray>"
+  death.attack.badRespawnPoint.message:
+    - "<gray><gold><player></gold> was killed by <red><killer></red></gray>"
+  death.attack.cactus:
+    - "<gray><gold><player></gold> was pricked to death</gray>"
+  death.attack.cactus.player:
+    - "<gray><gold><player></gold> walked into a cactus while trying to escape <red><killer></red></gray>"
+  death.attack.cramming:
+    - "<gray><gold><player></gold> was squished too much</gray>"
+  death.attack.cramming.player:
+    - "<gray><gold><player></gold> was squashed by <red><killer></red></gray>"
+  death.attack.dragonBreath:
+    - "<gray><gold><player></gold> was roasted in dragon's breath</gray>"
+  death.attack.dragonBreath.player:
+    - "<gray><gold><player></gold> was roasted in dragon's breath by <red><killer></red></gray>"
+  death.attack.drown:
+    - "<gray><gold><player></gold> drowned</gray>"
+  death.attack.drown.player:
+    - "<gray><gold><player></gold> drowned while trying to escape <red><killer></red></gray>"
+  death.attack.dryout:
+    - "<gray><gold><player></gold> died from dehydration</gray>"
+  death.attack.dryout.player:
+    - "<gray><gold><player></gold> died from dehydration while trying to escape <red><killer></red></gray>"
+  death.attack.even_more_magic:
+    - "<gray><gold><player></gold> was killed by even more magic</gray>"
+  death.attack.explosion:
+    - "<gray><gold><player></gold> blew up</gray>"
+  death.attack.explosion.player:
+    - "<gray><gold><player></gold> was blown up by <red><killer></red></gray>"
+  death.attack.explosion.player.item:
+    - "<gray><gold><player></gold> was blown up by <red><killer></red> using <item></gray>"
+  death.attack.fall:
+    - "<gray><gold><player></gold> hit the ground too hard</gray>"
+  death.attack.fall.player:
+    - "<gray><gold><player></gold> hit the ground too hard while trying to escape <red><killer></red></gray>"
+  death.attack.fallingBlock:
+    - "<gray><gold><player></gold> was squashed by a falling block</gray>"
+  death.attack.fallingBlock.player:
+    - "<gray><gold><player></gold> was squashed by a falling block while fighting <red><killer></red></gray>"
+  death.attack.fallingStalactite:
+    - "<gray><gold><player></gold> was skewered by a falling stalactite</gray>"
+  death.attack.fallingStalactite.player:
+    - "<gray><gold><player></gold> was skewered by a falling stalactite while fighting <red><killer></red></gray>"
+  death.attack.fireball:
+    - "<gray><gold><player></gold> was fireballed by <red><killer></red></gray>"
+  death.attack.fireball.item:
+    - "<gray><gold><player></gold> was fireballed by <red><killer></red> using <item></gray>"
+  death.attack.fireworks:
+    - "<gray><gold><player></gold> went off with a bang</gray>"
+  death.attack.fireworks.item:
+    - "<gray><gold><player></gold> went off with a bang due to a firework fired from <item> by <red><killer></red></gray>"
+  death.attack.fireworks.player:
+    - "<gray><gold><player></gold> went off with a bang while fighting <red><killer></red></gray>"
+  death.attack.flyIntoWall:
+    - "<gray><gold><player></gold> experienced kinetic energy</gray>"
+  death.attack.flyIntoWall.player:
+    - "<gray><gold><player></gold> experienced kinetic energy while trying to escape <red><killer></red></gray>"
+  death.attack.freeze:
+    - "<gray><gold><player></gold> froze to death</gray>"
+  death.attack.freeze.player:
+    - "<gray><gold><player></gold> was frozen to death by <red><killer></red></gray>"
+  death.attack.generic:
+    - "<gray><gold><player></gold> died</gray>"
+  death.attack.generic.player:
+    - "<gray><gold><player></gold> died because of <red><killer></red></gray>"
+  death.attack.genericKill:
+    - "<gray><gold><player></gold> was killed</gray>"
+  death.attack.genericKill.player:
+    - "<gray><gold><player></gold> was killed while fighting <red><killer></red></gray>"
+  death.attack.hotFloor:
+    - "<gray><gold><player></gold> discovered the floor was lava</gray>"
+  death.attack.hotFloor.player:
+    - "<gray><gold><player></gold> walked into the danger zone due to <red><killer></red></gray>"
+  death.attack.indirectMagic:
+    - "<gray><gold><player></gold> was killed by <red><killer></red> using magic</gray>"
+  death.attack.indirectMagic.item:
+    - "<gray><gold><player></gold> was killed by <red><killer></red> using <item></gray>"
+  death.attack.inFire:
+    - "<gray><gold><player></gold> went up in flames</gray>"
+  death.attack.inFire.player:
+    - "<gray><gold><player></gold> walked into fire while fighting <red><killer></red></gray>"
+  death.attack.inWall:
+    - "<gray><gold><player></gold> suffocated in a wall</gray>"
+  death.attack.inWall.player:
+    - "<gray><gold><player></gold> suffocated in a wall while fighting <red><killer></red></gray>"
+  death.attack.lava:
+    - "<gray><gold><player></gold> tried to swim in lava</gray>"
+  death.attack.lava.player:
+    - "<gray><gold><player></gold> tried to swim in lava to escape <red><killer></red></gray>"
+  death.attack.lightningBolt:
+    - "<gray><gold><player></gold> was struck by lightning</gray>"
+  death.attack.lightningBolt.player:
+    - "<gray><gold><player></gold> was struck by lightning while fighting <red><killer></red></gray>"
+  death.attack.magic:
+    - "<gray><gold><player></gold> was killed by magic</gray>"
+  death.attack.magic.player:
+    - "<gray><gold><player></gold> was killed by magic while trying to escape <red><killer></red></gray>"
+  death.attack.message_too_long:
+    - "<gray>Actually, the message was too long to deliver fully. Sorry! Here's a stripped version: %s</gray>"
+  death.attack.mob:
+    - "<gray><gold><player></gold> was slain by <red><killer></red></gray>"
+  death.attack.mob.item:
+    - "<gray><gold><player></gold> was slain by <red><killer></red> using <item></gray>"
+  death.attack.onFire:
+    - "<gray><gold><player></gold> burned to death</gray>"
+  death.attack.onFire.item:
+    - "<gray><gold><player></gold> was burned to a crisp while fighting <red><killer></red> wielding <item></gray>"
+  death.attack.onFire.player:
+    - "<gray><gold><player></gold> was burned to a crisp while fighting <red><killer></red></gray>"
+  death.attack.outOfWorld:
+    - "<gray><gold><player></gold> fell out of the world</gray>"
+  death.attack.outOfWorld.player:
+    - "<gray><gold><player></gold> didn't want to live in the same world as <red><killer></red></gray>"
+  death.attack.outsideBorder:
+    - "<gray><gold><player></gold> left the confines of this world</gray>"
+  death.attack.outsideBorder.player:
+    - "<gray><gold><player></gold> left the confines of this world while fighting <red><killer></red></gray>"
+  death.attack.player:
+    - "<gray><gold><player></gold> was slain by <red><killer></red></gray>"
+  death.attack.player.item:
+    - "<gray><gold><player></gold> was slain by <red><killer></red> using <item></gray>"
+  death.attack.sonic_boom:
+    - "<gray><gold><player></gold> was obliterated by a sonically-charged shriek</gray>"
+  death.attack.sonic_boom.item:
+    - "<gray><gold><player></gold> was obliterated by a sonically-charged shriek while trying to escape <red><killer></red> wielding <item></gray>"
+  death.attack.sonic_boom.player:
+    - "<gray><gold><player></gold> was obliterated by a sonically-charged shriek while trying to escape <red><killer></red></gray>"
+  death.attack.stalagmite:
+    - "<gray><gold><player></gold> was impaled on a stalagmite</gray>"
+  death.attack.stalagmite.player:
+    - "<gray><gold><player></gold> was impaled on a stalagmite while fighting <red><killer></red></gray>"
+  death.attack.starve:
+    - "<gray><gold><player></gold> starved to death</gray>"
+  death.attack.starve.player:
+    - "<gray><gold><player></gold> starved to death while fighting <red><killer></red></gray>"
+  death.attack.sting:
+    - "<gray><gold><player></gold> was stung to death</gray>"
+  death.attack.sting.item:
+    - "<gray><gold><player></gold> was stung to death by <red><killer></red> using <item></gray>"
+  death.attack.sting.player:
+    - "<gray><gold><player></gold> was stung to death by <red><killer></red></gray>"
+  death.attack.sweetBerryBush:
+    - "<gray><gold><player></gold> was poked to death by a sweet berry bush</gray>"
+  death.attack.sweetBerryBush.player:
+    - "<gray><gold><player></gold> was poked to death by a sweet berry bush while trying to escape <red><killer></red></gray>"
+  death.attack.thorns:
+    - "<gray><gold><player></gold> was killed while trying to hurt <red><killer></red></gray>"
+  death.attack.thorns.item:
+    - "<gray><gold><player></gold> was killed by <item> while trying to hurt <red><killer></red></gray>"
+  death.attack.thrown:
+    - "<gray><gold><player></gold> was pummeled by <red><killer></red></gray>"
+  death.attack.thrown.item:
+    - "<gray><gold><player></gold> was pummeled by <red><killer></red> using <item></gray>"
+  death.attack.trident:
+    - "<gray><gold><player></gold> was impaled by <red><killer></red></gray>"
+  death.attack.trident.item:
+    - "<gray><gold><player></gold> was impaled by <red><killer></red> with <item></gray>"
+  death.attack.wither:
+    - "<gray><gold><player></gold> withered away</gray>"
+  death.attack.wither.player:
+    - "<gray><gold><player></gold> withered away while fighting <red><killer></red></gray>"
+  death.attack.witherSkull:
+    - "<gray><gold><player></gold> was shot by a skull from <red><killer></red></gray>"
+  death.attack.witherSkull.item:
+    - "<gray><gold><player></gold> was shot by a skull from <red><killer></red> using <item></gray>"
+  death.fell.accident.generic:
+    - "<gray><gold><player></gold> fell from a high place</gray>"
+  death.fell.accident.ladder:
+    - "<gray><gold><player></gold> fell off a ladder</gray>"
+  death.fell.accident.other_climbable:
+    - "<gray><gold><player></gold> fell while climbing</gray>"
+  death.fell.accident.scaffolding:
+    - "<gray><gold><player></gold> fell off scaffolding</gray>"
+  death.fell.accident.twisting_vines:
+    - "<gray><gold><player></gold> fell off some twisting vines</gray>"
+  death.fell.accident.vines:
+    - "<gray><gold><player></gold> fell off some vines</gray>"
+  death.fell.accident.weeping_vines:
+    - "<gray><gold><player></gold> fell off some weeping vines</gray>"
+  death.fell.assist:
+    - "<gray><gold><player></gold> was doomed to fall by <red><killer></red></gray>"
+  death.fell.assist.item:
+    - "<gray><gold><player></gold> was doomed to fall by <red><killer></red> using <item></gray>"
+  death.fell.finish:
+    - "<gray><gold><player></gold> fell too far and was finished by <red><killer></red></gray>"
+  death.fell.finish.item:
+    - "<gray><gold><player></gold> fell too far and was finished by <red><killer></red> using <item></gray>"
+  death.fell.killer:
+    - "<gray><gold><player></gold> was doomed to fall</gray>"
