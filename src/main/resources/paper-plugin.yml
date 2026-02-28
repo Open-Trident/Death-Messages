@@ -3,12 +3,19 @@ version: "${project.version}"
 main: opentrident.deathmessages.OpenTridentDeathMessagesPlugin
 api-version: "1.21"
 folia-supported: true
-authors: ["OpenTrident", "Carlo"]
+authors:
+  - "OpenTrident"
+  - "Carlo"
 description: A custom death messages plugin compatible with Paper and Folia.
 
 commands:
   deathmessages:
     description: Core command for OpenTrident DeathMessages
-    aliases: [ot-dm]
+    aliases:
+      - ot-dm
     permission: opentrident.deathmessages.admin
-    permission-message: "<red>You do not have permission to execute this command.</red>"
+
+permissions:
+  opentrident.deathmessages.admin:
+    description: Allows using the /deathmessages commands
+    default: op

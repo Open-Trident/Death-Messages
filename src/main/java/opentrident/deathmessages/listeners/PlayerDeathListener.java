@@ -29,10 +29,10 @@ public class PlayerDeathListener implements Listener {
         if (deathMessage == null)
             return;
 
-        // Ensure the death message is translatable (Vanilla behavior)
-        if (deathMessage instanceof TranslatableComponent translatableComponent) {
-            String translationKey = translatableComponent.key();
-            List<Component> args = translatableComponent.args();
+        TranslatableComponent deathComponent = findDeathComponent(deathMessage);
+        if (deathComponent != null) {
+            String translationKey = deathComponent.key();
+            List<Component> args = deathComponent.args();
 
             // Fetch a random replacement message
             String customMessageFormat = vanillaConfig.getRandomMessage(translationKey);
@@ -64,5 +64,25 @@ public class PlayerDeathListener implements Listener {
                 event.deathMessage(finalMessage);
             }
         }
+    }
+
+    private TranslatableComponent findDeathComponent(Component component) {
+        if (component instanceof TranslatableComponent translatable) {
+            if (translatable.key().startsWith("death.")) {
+                return translatable;
+            }
+            // Also check arguments of translatable components
+            for (Component arg : translatable.args()) {
+                TranslatableComponent result = findDeathComponent(arg);
+                if (result != null)
+                    return result;
+            }
+        }
+        for (Component child : component.children()) {
+            TranslatableComponent result = findDeathComponent(child);
+            if (result != null)
+                return result;
+        }
+        return null;
     }
 }

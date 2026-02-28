@@ -33,12 +33,14 @@ public class VanillaConfig {
         deathMessages.clear();
 
         if (config.contains("messages")) {
-            for (String key : config.getConfigurationSection("messages").getKeys(false)) {
+            for (String key : config.getConfigurationSection("messages").getKeys(true)) {
                 List<String> messages = config.getStringList("messages." + key);
                 if (messages != null && !messages.isEmpty()) {
                     deathMessages.put(key, messages);
                 }
             }
+            plugin.getLogger()
+                    .info("Successfully loaded " + deathMessages.size() + " death message translation key mappings.");
         }
     }
 
