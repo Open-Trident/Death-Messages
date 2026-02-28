@@ -1,14 +1,12 @@
 name: OpenTrident_DeathMessages
-version: "${project.version}"
+version: 1.0.0-SNAPSHOT
 main: opentrident.deathmessages.OpenTridentDeathMessagesPlugin
 api-version: "1.21"
+description: "A customizable, sarcastic death messages plugin for Paper and Folia."
+authors: ["opentrident","CarloPlayz"]
 folia-supported: true
-authors:
-  - "OpenTrident"
-  - "Carlo"
-description: A custom death messages plugin compatible with Paper and Folia.
 
 permissions:
   opentrident.deathmessages.admin:
-    description: Allows using the /deathmessages commands
+    description: "Allows reloading the configuration and testing messages."
     default: op

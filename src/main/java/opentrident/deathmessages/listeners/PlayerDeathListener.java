@@ -62,7 +62,15 @@ public class PlayerDeathListener implements Listener {
 
                 // Replace the original death message
                 event.deathMessage(finalMessage);
+            } else {
+                org.bukkit.Bukkit.getLogger().warning("[OpenTrident_DeathMessages] Found translation key "
+                        + translationKey + " but no custom message in config!");
             }
+        } else {
+            String jsonEntry = net.kyori.adventure.text.serializer.gson.GsonComponentSerializer.gson()
+                    .serialize(deathMessage);
+            org.bukkit.Bukkit.getLogger()
+                    .warning("[OpenTrident_DeathMessages] COULD NOT FIND DEATH COMPONENT IN: " + jsonEntry);
         }
     }
 

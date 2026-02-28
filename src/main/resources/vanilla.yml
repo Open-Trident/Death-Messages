@@ -14,397 +14,397 @@
 # Format: MiniMessage (https://docs.advntr.dev/minimessage/format.html)
 
 messages:
-  death.attack.anvil:
+  "death.attack.anvil":
     - "<gray><gold><player></gold> auditioned for a cartoon and failed.</gray>"
     - "<gray><gold><player></gold> was aggressively re-educated by gravity and an anvil.</gray>"
     - "<gray><gold><player></gold> discovered that anvils don't bounce.</gray>"
-  death.attack.anvil.player:
+  "death.attack.anvil.player":
     - "<gray><red><killer></red> dropped a literal anvil on <gold><player></gold>'s hopes and dreams.</gray>"
     - "<gray><gold><player></gold> was playing 4D chess, but <red><killer></red> just used an anvil.</gray>"
     - "<gray><gold><player></gold> caught <red><killer></red>'s anvil with their face.</gray>"
-  death.attack.arrow:
+  "death.attack.arrow":
     - "<gray><gold><player></gold> became a human pincushion for <red><killer></red>.</gray>"
     - "<gray><gold><player></gold> failed to dodge <red><killer></red>'s arrows.</gray>"
     - "<gray><gold><player></gold> took <red><killer></red>'s arrow straight to the ego.</gray>"
-  death.attack.arrow.item:
+  "death.attack.arrow.item":
     - "<gray><gold><player></gold> was out-aimed by <red><killer></red> using <item>.</gray>"
     - "<gray><gold><player></gold> should have brought a shield against <red><killer></red>'s <item>.</gray>"
     - "<gray><red><killer></red> used <item> to turn <gold><player></gold> into a porcupine.</gray>"
-  death.attack.badRespawnPoint.link:
+  "death.attack.badRespawnPoint.link":
     - "<gray>Intentional Game Design</gray>"
     - "<gray>Beds explode here. Didn't you read the manual?</gray>"
     - "<gray>Never sleep in the Nether or End. Lesson learned.</gray>"
-  death.attack.badRespawnPoint.message:
+  "death.attack.badRespawnPoint.message":
     - "<gray><gold><player></gold> exploded their own bed, courtesy of <red><killer></red>.</gray>"
     - "<gray><gold><player></gold> trusted <red><killer></red>'s interior design choices.</gray>"
     - "<gray><gold><player></gold> found out the hard way why beds in other dimensions are a bad idea because of <red><killer></red>.</gray>"
-  death.attack.cactus:
+  "death.attack.cactus":
     - "<gray><gold><player></gold> gave a cactus a hug.</gray>"
     - "<gray><gold><player></gold> lost a staring contest with a prickly plant.</gray>"
     - "<gray><gold><player></gold> found out cacti are not good for scratching your back.</gray>"
-  death.attack.cactus.player:
+  "death.attack.cactus.player":
     - "<gray><gold><player></gold> was shoved into a cactus by <red><killer></red>.</gray>"
     - "<gray><gold><player></gold> stumbled back into a cactus trying to avoid <red><killer></red>.</gray>"
     - "<gray><red><killer></red> aggressively introduced <gold><player></gold> to some local flora.</gray>"
-  death.attack.cramming:
+  "death.attack.cramming":
     - "<gray><gold><player></gold> forgot the concept of personal space.</gray>"
     - "<gray><gold><player></gold> was squished into a geometric impossibility.</gray>"
     - "<gray><gold><player></gold> realized too late that 25 entities don't fit in one block.</gray>"
-  death.attack.cramming.player:
+  "death.attack.cramming.player":
     - "<gray><red><killer></red> packed <gold><player></gold> into a very small, fatal box.</gray>"
     - "<gray><gold><player></gold> was crammed into oblivion by <red><killer></red>.</gray>"
     - "<gray><gold><player></gold> lost the game of entity-tetris against <red><killer></red>.</gray>"
-  death.attack.dragonBreath:
+  "death.attack.dragonBreath":
     - "<gray><gold><player></gold> forgot mouthwash doesn't cure Dragon's Breath.</gray>"
     - "<gray><gold><player></gold> was slowly melted by purple mist.</gray>"
     - "<gray><gold><player></gold> stood in the spicy purple air for too long.</gray>"
-  death.attack.dragonBreath.player:
+  "death.attack.dragonBreath.player":
     - "<gray><gold><player></gold> was bathed in Dragon's Breath by <red><killer></red>.</gray>"
     - "<gray><red><killer></red> made <gold><player></gold> inhale some very toxic fumes.</gray>"
     - "<gray><gold><player></gold> choked on purple magic thanks to <red><killer></red>.</gray>"
-  death.attack.drown:
+  "death.attack.drown":
     - "<gray><gold><player></gold> forgot how to breathe underwater.</gray>"
     - "<gray><gold><player></gold> took a permanent scuba diving trip.</gray>"
     - "<gray><gold><player></gold> drank way too much water.</gray>"
-  death.attack.drown.player:
+  "death.attack.drown.player":
     - "<gray><red><killer></red> held <gold><player></gold> underwater for entirely too long.</gray>"
     - "<gray><gold><player></gold> drowned trying to flee from <red><killer></red>.</gray>"
     - "<gray><red><killer></red> threw <gold><player></gold> into the deep end without floaties.</gray>"
-  death.attack.dryout:
+  "death.attack.dryout":
     - "<gray><gold><player></gold> dried up like a raisin.</gray>"
     - "<gray><gold><player></gold> forgot to moisturize.</gray>"
     - "<gray><gold><player></gold> proved they aren't meant for dry land.</gray>"
-  death.attack.dryout.player:
+  "death.attack.dryout.player":
     - "<gray><red><killer></red> watched <gold><player></gold> turn into dust.</gray>"
     - "<gray><red><killer></red> forced <gold><player></gold> to stay out of the water.</gray>"
     - "<gray><gold><player></gold> dehydrated to death because of <red><killer></red>.</gray>"
-  death.attack.even_more_magic:
+  "death.attack.even_more_magic":
     - "<gray><gold><player></gold> fell victim to excessive hocus pocus.</gray>"
     - "<gray><gold><player></gold> was deleted by arcane forces.</gray>"
     - "<gray><gold><player></gold> underestimated the amount of magic involved.</gray>"
-  death.attack.explosion:
+  "death.attack.explosion":
     - "<gray><gold><player></gold> forgot that TNT goes boom.</gray>"
     - "<gray><gold><player></gold> suddenly became multiple smaller <gold><player></gold>s.</gray>"
     - "<gray><gold><player></gold> failed basic explosive safety training.</gray>"
-  death.attack.explosion.player:
+  "death.attack.explosion.player":
     - "<gray><red><killer></red> taught <gold><player></gold> a lesson in rapid disassembly.</gray>"
     - "<gray><gold><player></gold> was blown to smithereens by <red><killer></red>.</gray>"
     - "<gray><red><killer></red> decided <gold><player></gold> needed more explosions in their life.</gray>"
-  death.attack.explosion.player.item:
+  "death.attack.explosion.player.item":
     - "<gray><red><killer></red> used <item> to spontaneously combust <gold><player></gold>.</gray>"
     - "<gray><gold><player></gold> was violently relocated by <red><killer></red>'s <item>.</gray>"
     - "<gray><gold><player></gold> didn't run away fast enough from <red><killer></red>'s <item>.</gray>"
-  death.attack.fall:
+  "death.attack.fall":
     - "<gray><gold><player></gold> demonstrated how gravity works.</gray>"
     - "<gray><gold><player></gold> forgot to pack a water bucket.</gray>"
     - "<gray><gold><player></gold> hit the ground harder than expected.</gray>"
-  death.attack.fall.player:
+  "death.attack.fall.player":
     - "<gray><gold><player></gold> was tossed off a ledge by <red><killer></red>.</gray>"
     - "<gray><red><killer></red> watched as <gold><player></gold> embraced gravity.</gray>"
     - "<gray><gold><player></gold> took a deadly tumble thanks to <red><killer></red>.</gray>"
-  death.attack.fallingBlock:
+  "death.attack.fallingBlock":
     - "<gray><gold><player></gold> received an unexpected package from the sky.</gray>"
     - "<gray><gold><player></gold> ignored the 'Hard Hat Required' sign.</gray>"
     - "<gray><gold><player></gold> failed to dodge a very heavy block.</gray>"
-  death.attack.fallingBlock.player:
+  "death.attack.fallingBlock.player":
     - "<gray><red><killer></red> dropped architecture on <gold><player></gold>'s head.</gray>"
     - "<gray><gold><player></gold> was flattened by a block pushed by <red><killer></red>.</gray>"
     - "<gray><red><killer></red> made sure <gold><player></gold> was well-grounded.</gray>"
-  death.attack.fallingStalactite:
+  "death.attack.fallingStalactite":
     - "<gray><gold><player></gold> was aggressively pierced by a cave ceiling.</gray>"
     - "<gray><gold><player></gold> caught a stalactite with their skull.</gray>"
     - "<gray><gold><player></gold> learned why looking up in caves is important.</gray>"
-  death.attack.fallingStalactite.player:
+  "death.attack.fallingStalactite.player":
     - "<gray><red><killer></red> arranged an unfortunate stalactite accident for <gold><player></gold>.</gray>"
     - "<gray><gold><player></gold> got skewered from above thanks to <red><killer></red>.</gray>"
     - "<gray><red><killer></red> made the roof cave in on <gold><player></gold>.</gray>"
-  death.attack.fireball:
+  "death.attack.fireball":
     - "<gray><gold><player></gold> failed the dodgeball tournament against <red><killer></red>.</gray>"
     - "<gray><red><killer></red> threw a very spicy meatball at <gold><player></gold>.</gray>"
     - "<gray><gold><player></gold> took a fireball to the face from <red><killer></red>.</gray>"
-  death.attack.fireball.item:
+  "death.attack.fireball.item":
     - "<gray><gold><player></gold> was utterly incinerated by <red><killer></red> using <item>.</gray>"
     - "<gray><red><killer></red> used <item> to drastically increase <gold><player></gold>'s temperature.</gray>"
     - "<gray><gold><player></gold> could not deflect back <red><killer></red>'s <item>.</gray>"
-  death.attack.fireworks:
+  "death.attack.fireworks":
     - "<gray><gold><player></gold> became a grand finale.</gray>"
     - "<gray><gold><player></gold> ignited the wrong end of the firework.</gray>"
     - "<gray><gold><player></gold> learned fireworks aren't toys.</gray>"
-  death.attack.fireworks.item:
+  "death.attack.fireworks.item":
     - "<gray><red><killer></red> used <item> to make <gold><player></gold> pop.</gray>"
     - "<gray><gold><player></gold> was the star of <red><killer></red>'s <item> firework show.</gray>"
     - "<gray><gold><player></gold> couldn't handle the fireworks from <red><killer></red>'s <item>.</gray>"
-  death.attack.fireworks.player:
+  "death.attack.fireworks.player":
     - "<gray><red><killer></red> turned <gold><player></gold> into a roman candle.</gray>"
     - "<gray><gold><player></gold> was blown up in a colorful display by <red><killer></red>.</gray>"
     - "<gray><gold><player></gold> lost a fiery duel to <red><killer></red>.</gray>"
-  death.attack.flyIntoWall:
+  "death.attack.flyIntoWall":
     - "<gray><gold><player></gold> forgot how to steer their elytra.</gray>"
     - "<gray><gold><player></gold> forcefully face-planted a wall at Mach 3.</gray>"
     - "<gray><gold><player></gold> tried to fly through solid blocks.</gray>"
-  death.attack.flyIntoWall.player:
+  "death.attack.flyIntoWall.player":
     - "<gray><red><killer></red> watched <gold><player></gold> slam into a wall mid-flight.</gray>"
     - "<gray><gold><player></gold> forgot to brake while fleeing from <red><killer></red>.</gray>"
     - "<gray><gold><player></gold> was distracted by <red><killer></red> and met a wall.</gray>"
-  death.attack.freeze:
+  "death.attack.freeze":
     - "<gray><gold><player></gold> forgot to wear a jacket.</gray>"
     - "<gray><gold><player></gold> turned into a human popsicle.</gray>"
     - "<gray><gold><player></gold> severely underestimated the power of frostbite.</gray>"
-  death.attack.freeze.player:
+  "death.attack.freeze.player":
     - "<gray><red><killer></red> permanently iced <gold><player></gold>.</gray>"
     - "<gray><gold><player></gold> was given the cold shoulder by <red><killer></red>.</gray>"
     - "<gray><gold><player></gold> froze to death while trying to deal with <red><killer></red>.</gray>"
-  death.attack.generic:
+  "death.attack.generic":
     - "<gray><gold><player></gold> straight up died.</gray>"
     - "<gray><gold><player></gold> encountered a fatal error.</gray>"
     - "<gray><gold><player></gold> flatlined under mysterious circumstances.</gray>"
-  death.attack.generic.player:
+  "death.attack.generic.player":
     - "<gray><gold><player></gold> was deleted from existence by <red><killer></red>.</gray>"
     - "<gray><red><killer></red> just kind of ended <gold><player></gold>.</gray>"
     - "<gray><gold><player></gold> perished, entirely because of <red><killer></red>.</gray>"
-  death.attack.genericKill:
+  "death.attack.genericKill":
     - "<gray><gold><player></gold> was removed from the server.</gray>"
     - "<gray><gold><player></gold> reached the end of their lifespan.</gray>"
     - "<gray><gold><player></gold> simply stopped living.</gray>"
-  death.attack.genericKill.player:
+  "death.attack.genericKill.player":
     - "<gray><red><killer></red> forcefully retired <gold><player></gold>.</gray>"
     - "<gray><gold><player></gold> was casually eliminated by <red><killer></red>.</gray>"
     - "<gray><gold><player></gold> got utterly demolished by <red><killer></red>.</gray>"
-  death.attack.hotFloor:
+  "death.attack.hotFloor":
     - "<gray><gold><player></gold> learned that Magma Blocks actually hurt.</gray>"
     - "<gray><gold><player></gold> couldn't handle the heat of the floor.</gray>"
     - "<gray><gold><player></gold> forgot to sneak on a magma block.</gray>"
-  death.attack.hotFloor.player:
+  "death.attack.hotFloor.player":
     - "<gray><red><killer></red> forced <gold><player></gold> to dance on hot coals.</gray>"
     - "<gray><gold><player></gold> was pushed onto magma by <red><killer></red>.</gray>"
     - "<gray><gold><player></gold> melted from the bottom up while fighting <red><killer></red>.</gray>"
-  death.attack.indirectMagic:
+  "death.attack.indirectMagic":
     - "<gray><gold><player></gold> got splashed by <red><killer></red>'s malicious liquid.</gray>"
     - "<gray><gold><player></gold> inhaled the bad fumes from <red><killer></red>.</gray>"
     - "<gray><gold><player></gold> learned that <red><killer></red> is really good at alchemy.</gray>"
-  death.attack.indirectMagic.item:
+  "death.attack.indirectMagic.item":
     - "<gray><red><killer></red> utilized <item> to melt <gold><player></gold> via potion.</gray>"
     - "<gray><gold><player></gold> failed their chemistry class against <red><killer></red> using <item>.</gray>"
     - "<gray><gold><player></gold> drank the wrong juice from <red><killer></red>'s <item>.</gray>"
-  death.attack.inFire:
+  "death.attack.inFire":
     - "<gray><gold><player></gold> decided to see what being crispy feels like.</gray>"
     - "<gray><gold><player></gold> stood in the campfire for way too long.</gray>"
     - "<gray><gold><player></gold> became a human torch.</gray>"
-  death.attack.inFire.player:
+  "death.attack.inFire.player":
     - "<gray><red><killer></red> shoved <gold><player></gold> into the fire.</gray>"
     - "<gray><gold><player></gold> was roasted alive by <red><killer></red>.</gray>"
     - "<gray><gold><player></gold> caught on fire running from <red><killer></red>.</gray>"
-  death.attack.inWall:
+  "death.attack.inWall":
     - "<gray><gold><player></gold> tried to walk through a wall and failed.</gray>"
     - "<gray><gold><player></gold> forgot how collision works.</gray>"
     - "<gray><gold><player></gold> merged with the terrain in a bad way.</gray>"
-  death.attack.inWall.player:
+  "death.attack.inWall.player":
     - "<gray><red><killer></red> buried <gold><player></gold> alive in a wall.</gray>"
     - "<gray><gold><player></gold> was suffocated by <red><killer></red>'s block placements.</gray>"
     - "<gray><gold><player></gold> was forced to eat gravel by <red><killer></red>.</gray>"
-  death.attack.lava:
+  "death.attack.lava":
     - "<gray><gold><player></gold> thought they could swim in lava.</gray>"
     - "<gray><gold><player></gold> became a permanent resident of the lava lake.</gray>"
     - "<gray><gold><player></gold> turned into charcoal.</gray>"
-  death.attack.lava.player:
+  "death.attack.lava.player":
     - "<gray><red><killer></red> gave <gold><player></gold> a molten bath.</gray>"
     - "<gray><gold><player></gold> fell into lava trying to escape <red><killer></red>.</gray>"
     - "<gray><gold><player></gold> got pushed into the wrong jacuzzi by <red><killer></red>.</gray>"
-  death.attack.lightningBolt:
+  "death.attack.lightningBolt":
     - "<gray><gold><player></gold> failed to avoid nature's smite.</gray>"
     - "<gray><gold><player></gold> was struck down by the heavens.</gray>"
     - "<gray><gold><player></gold> channeled too much electricity.</gray>"
-  death.attack.lightningBolt.player:
+  "death.attack.lightningBolt.player":
     - "<gray><red><killer></red> literally smote <gold><player></gold> with lightning.</gray>"
     - "<gray><gold><player></gold> was electrocuted thanks to <red><killer></red>.</gray>"
     - "<gray><red><killer></red> brought the thunder down upon <gold><player></gold>.</gray>"
-  death.attack.magic:
+  "death.attack.magic":
     - "<gray><gold><player></gold> suffered a severe magical reaction.</gray>"
     - "<gray><gold><player></gold> proved non-immune to Evoker spells.</gray>"
     - "<gray><gold><player></gold> was unalived by dark arts.</gray>"
-  death.attack.magic.player:
+  "death.attack.magic.player":
     - "<gray><red><killer></red> turned <gold><player></gold> into a magical statistic.</gray>"
     - "<gray><gold><player></gold> couldn't block <red><killer></red>'s curse.</gray>"
     - "<gray><red><killer></red> successfully cursed <gold><player></gold> to death.</gray>"
-  death.attack.mob:
+  "death.attack.mob":
     - "<gray><gold><player></gold> failed their basic survival skills against <red><killer></red>.</gray>"
     - "<gray><gold><player></gold> got completely owned by a <red><killer></red>.</gray>"
     - "<gray><gold><player></gold> lost a fistfight with <red><killer></red>.</gray>"
-  death.attack.mob.item:
+  "death.attack.mob.item":
     - "<gray><red><killer></red> casually dispatched <gold><player></gold> using <item>.</gray>"
     - "<gray><gold><player></gold> was absolutely destroyed by <red><killer></red> armed with <item>.</gray>"
     - "<gray><gold><player></gold> learned why <red><killer></red> should never hold <item>.</gray>"
-  death.attack.onFire:
+  "death.attack.onFire":
     - "<gray><gold><player></gold> failed to stop, drop, and roll.</gray>"
     - "<gray><gold><player></gold> literally burned to a crisp.</gray>"
     - "<gray><gold><player></gold> smelled like burnt toast.</gray>"
-  death.attack.onFire.item:
+  "death.attack.onFire.item":
     - "<gray><red><killer></red> barbecued <gold><player></gold> with <item>.</gray>"
     - "<gray><gold><player></gold> couldn't handle the heat of <red><killer></red>'s <item>.</gray>"
     - "<gray><gold><player></gold> was reduced to ashes by <red><killer></red> using <item>.</gray>"
-  death.attack.onFire.player:
+  "death.attack.onFire.player":
     - "<gray><red><killer></red> watched <gold><player></gold> burn away.</gray>"
     - "<gray><gold><player></gold> lost the fire safety test against <red><killer></red>.</gray>"
     - "<gray><gold><player></gold> got entirely too crispy fighting <red><killer></red>.</gray>"
-  death.attack.outOfWorld:
+  "death.attack.outOfWorld":
     - "<gray><gold><player></gold> disconnected from the fabric of reality.</gray>"
     - "<gray><gold><player></gold> fell into the vast emptiness of the void.</gray>"
     - "<gray><gold><player></gold> broke bedrock protocol and paid the price.</gray>"
-  death.attack.outOfWorld.player:
+  "death.attack.outOfWorld.player":
     - "<gray><gold><player></gold> yeeted themselves into the void to escape <red><killer></red>.</gray>"
     - "<gray><red><killer></red> kicked <gold><player></gold> into the endless void.</gray>"
     - "<gray><gold><player></gold> fell through the world thanks to <red><killer></red>.</gray>"
-  death.attack.outsideBorder:
+  "death.attack.outsideBorder":
     - "<gray><gold><player></gold> thought they were immune to the world border.</gray>"
     - "<gray><gold><player></gold> suffocated trying to escape reality.</gray>"
     - "<gray><gold><player></gold> learned the server boundary is non-negotiable.</gray>"
-  death.attack.outsideBorder.player:
+  "death.attack.outsideBorder.player":
     - "<gray><gold><player></gold> was pushed outside the universe by <red><killer></red>.</gray>"
     - "<gray><red><killer></red> shoved <gold><player></gold> through the border.</gray>"
     - "<gray><gold><player></gold> died to boundary lines while fleeing <red><killer></red>.</gray>"
-  death.attack.player:
+  "death.attack.player":
     - "<gray><gold><player></gold> lost entirely to <red><killer></red>.</gray>"
     - "<gray><gold><player></gold> was outplayed, outclassed, and outlived by <red><killer></red>.</gray>"
     - "<gray><red><killer></red> just embarrassed <gold><player></gold> in pure combat.</gray>"
-  death.attack.player.item:
+  "death.attack.player.item":
     - "<gray><gold><player></gold> was brutally humbled by <red><killer></red> using <item>.</gray>"
     - "<gray><red><killer></red> put an end to <gold><player></gold>'s career with <item>.</gray>"
     - "<gray><gold><player></gold> got flawlessly wiped out by <red><killer></red>'s <item>.</gray>"
-  death.attack.sonic_boom:
+  "death.attack.sonic_boom":
     - "<gray><gold><player></gold> learned that sound can in fact kill.</gray>"
     - "<gray><gold><player></gold> failed to sneak past the Warden.</gray>"
     - "<gray><gold><player></gold> had their eardrums violently ruptured.</gray>"
-  death.attack.sonic_boom.item:
+  "death.attack.sonic_boom.item":
     - "<gray><red><killer></red> sent a devastating soundwave at <gold><player></gold> with <item>.</gray>"
     - "<gray><gold><player></gold> was obliterated by a sonic blast from <red><killer></red>'s <item>.</gray>"
     - "<gray><gold><player></gold>'s atoms were jiggled apart by <red><killer></red> wielding <item>.</gray>"
-  death.attack.sonic_boom.player:
+  "death.attack.sonic_boom.player":
     - "<gray><red><killer></red> screamed <gold><player></gold> out of existence.</gray>"
     - "<gray><gold><player></gold> died from auditory trauma from <red><killer></red>.</gray>"
     - "<gray><gold><player></gold> was blasted to pieces by <red><killer></red>'s sonic boom.</gray>"
-  death.attack.stalagmite:
+  "death.attack.stalagmite":
     - "<gray><gold><player></gold> turned themselves into a kebab.</gray>"
     - "<gray><gold><player></gold> failed the gymnastics landing on a pointy rock.</gray>"
     - "<gray><gold><player></gold> sat down too hard on a stalagmite.</gray>"
-  death.attack.stalagmite.player:
+  "death.attack.stalagmite.player":
     - "<gray><red><killer></red> threw <gold><player></gold> onto a very sharp rock.</gray>"
     - "<gray><gold><player></gold> became floor-impalement art thanks to <red><killer></red>.</gray>"
     - "<gray><gold><player></gold> was pushed onto spikes by <red><killer></red>.</gray>"
-  death.attack.starve:
+  "death.attack.starve":
     - "<gray><gold><player></gold> forgot to pack a lunch.</gray>"
     - "<gray><gold><player></gold> learned you can actually starve in this game.</gray>"
     - "<gray><gold><player></gold> went a little too long without bread.</gray>"
-  death.attack.starve.player:
+  "death.attack.starve.player":
     - "<gray><gold><player></gold> starved while running in terror from <red><killer></red>.</gray>"
     - "<gray><red><killer></red> simply waited for <gold><player></gold> to starve.</gray>"
     - "<gray><gold><player></gold> engaged in a fatal hunger strike against <red><killer></red>.</gray>"
-  death.attack.sting:
+  "death.attack.sting":
     - "<gray><gold><player></gold> accidentally aggravated the local bees.</gray>"
     - "<gray><gold><player></gold> swelled up like a balloon.</gray>"
     - "<gray><gold><player></gold> realized they are highly allergic.</gray>"
-  death.attack.sting.item:
+  "death.attack.sting.item":
     - "<gray><red><killer></red> let the bugs out to sting <gold><player></gold> via <item>.</gray>"
     - "<gray><gold><player></gold> got swarmed because of <red><killer></red>'s <item>.</gray>"
     - "<gray><gold><player></gold> suffered a lethal allergic reaction orchestrated by <red><killer></red>'s <item>.</gray>"
-  death.attack.sting.player:
+  "death.attack.sting.player":
     - "<gray><gold><player></gold> was stung to death while <red><killer></red> laughed.</gray>"
     - "<gray><red><killer></red> threw <gold><player></gold> to the bees.</gray>"
     - "<gray><gold><player></gold> succumbed to venom thanks to <red><killer></red>.</gray>"
-  death.attack.sweetBerryBush:
+  "death.attack.sweetBerryBush":
     - "<gray><gold><player></gold> got aggressively pricked by a bush.</gray>"
     - "<gray><gold><player></gold> died for a snack.</gray>"
     - "<gray><gold><player></gold> underestimated the danger of berries.</gray>"
-  death.attack.sweetBerryBush.player:
+  "death.attack.sweetBerryBush.player":
     - "<gray><red><killer></red> pushed <gold><player></gold> into the prickly bushes.</gray>"
     - "<gray><gold><player></gold> scrambled into a bush to avoid <red><killer></red> and died.</gray>"
     - "<gray><gold><player></gold> was poked to death while fighting <red><killer></red>.</gray>"
-  death.attack.thorns:
+  "death.attack.thorns":
     - "<gray><gold><player></gold> hit themselves in confusion attacking <red><killer></red>.</gray>"
     - "<gray><gold><player></gold> practically killed themselves hitting <red><killer></red>.</gray>"
     - "<gray><gold><player></gold> forgot to check <red><killer></red>'s armor enchantments.</gray>"
-  death.attack.thorns.item:
+  "death.attack.thorns.item":
     - "<gray><gold><player></gold> was returned to sender while trying to attack <red><killer></red> holding <item>.</gray>"
     - "<gray><gold><player></gold> dealt negative damage and died to <red><killer></red>'s <item>.</gray>"
     - "<gray><gold><player></gold> suffered from fatal backlash against <red><killer></red> wielding <item>.</gray>"
-  death.attack.thrown:
+  "death.attack.thrown":
     - "<gray><gold><player></gold> failed to dodge the flying debris from <red><killer></red>.</gray>"
     - "<gray><gold><player></gold> was completely ruined by <red><killer></red>'s projectile.</gray>"
     - "<gray><gold><player></gold> got violently knocked out by <red><killer></red>.</gray>"
-  death.attack.thrown.item:
+  "death.attack.thrown.item":
     - "<gray><red><killer></red> chucked <item> directly at <gold><player></gold>'s head.</gray>"
     - "<gray><gold><player></gold> was eliminated by a high speed <item> thrown by <red><killer></red>.</gray>"
     - "<gray><gold><player></gold> failed to catch <red><killer></red>'s <item>.</gray>"
-  death.attack.trident:
+  "death.attack.trident":
     - "<gray><gold><player></gold> got skewered from afar by <red><killer></red>.</gray>"
     - "<gray><gold><player></gold> became fish food for <red><killer></red>.</gray>"
     - "<gray><red><killer></red> landed the perfect trident throw on <gold><player></gold>.</gray>"
-  death.attack.trident.item:
+  "death.attack.trident.item":
     - "<gray><red><killer></red> pinned <gold><player></gold> to the wall with <item>.</gray>"
     - "<gray><gold><player></gold> took <item> directly to the chest from <red><killer></red>.</gray>"
     - "<gray><gold><player></gold> was expertly hunted by <red><killer></red>'s <item>.</gray>"
-  death.attack.wither:
+  "death.attack.wither":
     - "<gray><gold><player></gold> slowly withered away.</gray>"
     - "<gray><gold><player></gold> succumbed to the rot.</gray>"
     - "<gray><gold><player></gold> turned to dust and blew away.</gray>"
-  death.attack.wither.player:
+  "death.attack.wither.player":
     - "<gray><gold><player></gold> got withered down to bone by <red><killer></red>.</gray>"
     - "<gray><red><killer></red> inflicted permanent decay upon <gold><player></gold>.</gray>"
     - "<gray><gold><player></gold> died from dark magic inflicted by <red><killer></red>.</gray>"
-  death.attack.witherSkull:
+  "death.attack.witherSkull":
     - "<gray><gold><player></gold> got smacked by a dark, explosive skull from <red><killer></red>.</gray>"
     - "<gray><gold><player></gold> failed to parry a wither skull.</gray>"
     - "<gray><gold><player></gold> was blasted into decay by <red><killer></red>.</gray>"
-  death.attack.witherSkull.item:
+  "death.attack.witherSkull.item":
     - "<gray><red><killer></red> utilized <item> to launch a skull directly at <gold><player></gold>.</gray>"
     - "<gray><gold><player></gold> didn't run away fast enough from <red><killer></red>'s withering <item>.</gray>"
     - "<gray><gold><player></gold> was erased by a dark skull out of <red><killer></red>'s <item>.</gray>"
-  death.fell.accident.generic:
+  "death.fell.accident.generic":
     - "<gray><gold><player></gold> miscalculated their jump.</gray>"
     - "<gray><gold><player></gold> learned the hard way that humans can't fly.</gray>"
     - "<gray><gold><player></gold> tripped and plummeted.</gray>"
-  death.fell.accident.ladder:
+  "death.fell.accident.ladder":
     - "<gray><gold><player></gold> forgot how ladders work.</gray>"
     - "<gray><gold><player></gold> slipped on the rungs.</gray>"
     - "<gray><gold><player></gold> thought jumping off the ladder was a good idea.</gray>"
-  death.fell.accident.other_climbable:
+  "death.fell.accident.other_climbable":
     - "<gray><gold><player></gold> realized those weren't meant to be climbed.</gray>"
     - "<gray><gold><player></gold> slipped off the wall.</gray>"
     - "<gray><gold><player></gold> failed the climbing exam.</gray>"
-  death.fell.accident.scaffolding:
+  "death.fell.accident.scaffolding":
     - "<gray><gold><player></gold> broke the scaffolding beneath them.</gray>"
     - "<gray><gold><player></gold> put too much faith in bamboo.</gray>"
     - "<gray><gold><player></gold> fell directly through the cracks.</gray>"
-  death.fell.accident.twisting_vines:
+  "death.fell.accident.twisting_vines":
     - "<gray><gold><player></gold> let go of the twisting vines.</gray>"
     - "<gray><gold><player></gold> slipped on some weird nether flora.</gray>"
     - "<gray><gold><player></gold> got tangled up and fell.</gray>"
-  death.fell.accident.vines:
+  "death.fell.accident.vines":
     - "<gray><gold><player></gold> thought vines were a safe descent method.</gray>"
     - "<gray><gold><player></gold> missed the grab.</gray>"
     - "<gray><gold><player></gold> swung a bit too hard into the abyss.</gray>"
-  death.fell.accident.weeping_vines:
+  "death.fell.accident.weeping_vines":
     - "<gray><gold><player></gold> wept all the way down.</gray>"
     - "<gray><gold><player></gold> lost their grip in the nether.</gray>"
     - "<gray><gold><player></gold> plummeted past the weeping vines.</gray>"
-  death.fell.assist:
+  "death.fell.assist":
     - "<gray><red><killer></red> assisted <gold><player></gold> in a very fast descent.</gray>"
     - "<gray><gold><player></gold> stepped right off the edge because of <red><killer></red>.</gray>"
     - "<gray><gold><player></gold> took a violent tumble thanks to <red><killer></red>.</gray>"
-  death.fell.assist.item:
+  "death.fell.assist.item":
     - "<gray><red><killer></red> knocked <gold><player></gold> off the ledge using <item>.</gray>"
     - "<gray><gold><player></gold> got knocked into the ravine by <red><killer></red>'s <item>.</gray>"
     - "<gray><gold><player></gold> was catapulted downwards by <red><killer></red> wielding <item>.</gray>"
-  death.fell.finish:
+  "death.fell.finish":
     - "<gray><gold><player></gold> survived the fall, but not <red><killer></red>.</gray>"
     - "<gray><red><killer></red> put broken <gold><player></gold> out of their misery.</gray>"
     - "<gray><gold><player></gold> broke their legs, and <red><killer></red> finished the job.</gray>"
-  death.fell.finish.item:
+  "death.fell.finish.item":
     - "<gray><gold><player></gold> cratered into the ground, then <red><killer></red> used <item>.</gray>"
     - "<gray><red><killer></red> executed a crippled <gold><player></gold> with <item>.</gray>"
     - "<gray><gold><player></gold> fell down, and <red><killer></red> made sure they stayed down using <item>.</gray>"
-  death.fell.killer:
+  "death.fell.killer":
     - "<gray><gold><player></gold> was thrown to the wolves.</gray>"
     - "<gray><gold><player></gold> was sentenced to fall.</gray>"
     - "<gray><gold><player></gold> suffered a lethal drop.</gray>"
-  death.attack.message_too_long:
+  "death.attack.message_too_long":
     - "<gray>Hold on, the death message was just too complicated. Here it is: %s</gray>"

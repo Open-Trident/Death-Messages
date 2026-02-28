@@ -29,19 +29,30 @@ public class VanillaConfig {
             plugin.saveResource("vanilla.yml", false);
         }
 
-        config = YamlConfiguration.loadConfiguration(configFile);
+        config = new YamlConfiguration();
+        config.options().pathSeparator('|');
+        try {
+            config.load(configFile);
+        } catch (Exception e) {
+            plugin.getLogger().severe("Could not fully load vanilla.yml!");
+            e.printStackTrace();
+        }
+
         deathMessages.clear();
 
-        if (config.contains("messages")) {
-            for (String key : config.getConfigurationSection("messages").getKeys(true)) {
-                List<String> messages = config.getStringList("messages." + key);
-                if (messages != null && !messages.isEmpty()) {
-                    deathMessages.put(key, messages);
+        org.bukkit.configuration.ConfigurationSection messageSection = config.getConfigurationSection("messages");
+        if (messageSection != null) {
+            for (String key : messageSection.getKeys(false)) {
+                if (messageSection.isList(key)) {
+                    List<String> messages = messageSection.getStringList(key);
+                    if (!messages.isEmpty()) {
+                        deathMessages.put(key, messages);
+                    }
                 }
             }
-            plugin.getLogger()
-                    .info("Successfully loaded " + deathMessages.size() + " death message translation key mappings.");
         }
+        plugin.getLogger()
+                .info("Successfully loaded " + deathMessages.size() + " death message translation key mappings.");
     }
 
     public void reload() {
@@ -60,5 +71,33 @@ public class VanillaConfig {
             return null;
         }
         return messages.get(random.nextInt(messages.size()));
+    }
+
+    /**
+     * Gets all loaded translation keys.
+     * 
+     * @return an unmodifiable set of all loaded keys
+     */
+    public java.util.Set<String> getKeys() {
+        return Collections.unmodifiableSet(deathMessages.keySet());
+    }
+
+    /**
+     * Gets a completely random key that has been loaded.
+     * 
+     * @return a random key, or null if none are loaded
+     */
+    public String getRandomKey() {
+        if (deathMessages.isEmpty()) {
+            return null;
+        }
+        int index = random.nextInt(deathMessages.size());
+        int i = 0;
+        for (String key : deathMessages.keySet()) {
+            if (i == index)
+                return key;
+            i++;
+        }
+        return null;
     }
 }
