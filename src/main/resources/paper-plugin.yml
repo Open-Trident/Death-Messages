@@ -8,13 +8,6 @@ authors:
   - "Carlo"
 description: A custom death messages plugin compatible with Paper and Folia.
 
-commands:
-  deathmessages:
-    description: Core command for OpenTrident DeathMessages
-    aliases:
-      - ot-dm
-    permission: opentrident.deathmessages.admin
-
 permissions:
   opentrident.deathmessages.admin:
     description: Allows using the /deathmessages commands

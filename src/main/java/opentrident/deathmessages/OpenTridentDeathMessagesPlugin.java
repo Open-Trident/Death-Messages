@@ -28,12 +28,26 @@ public class OpenTridentDeathMessagesPlugin extends JavaPlugin {
         getServer().getPluginManager().registerEvents(new PlayerDeathListener(vanillaConfig), this);
         getLogger().info("Registered PlayerDeathListener.");
 
-        // Register Commands
-        if (getCommand("deathmessages") != null) {
+        // Register Commands using reflection (Paper plugin.yml doesn't support commands
+        // block)
+        try {
+            java.lang.reflect.Constructor<org.bukkit.command.PluginCommand> constructor = org.bukkit.command.PluginCommand.class
+                    .getDeclaredConstructor(String.class, org.bukkit.plugin.Plugin.class);
+            constructor.setAccessible(true);
+            org.bukkit.command.PluginCommand cmd = constructor.newInstance("deathmessages", this);
+
             DeathMessagesCommand commandExecutor = new DeathMessagesCommand(vanillaConfig);
-            getCommand("deathmessages").setExecutor(commandExecutor);
-            getCommand("deathmessages").setTabCompleter(commandExecutor);
-            getLogger().info("Registered /deathmessages command.");
+            cmd.setExecutor(commandExecutor);
+            cmd.setTabCompleter(commandExecutor);
+            cmd.setAliases(java.util.Collections.singletonList("ot-dm"));
+            cmd.setDescription("Core command for OpenTrident DeathMessages");
+            cmd.setPermission("opentrident.deathmessages.admin");
+
+            getServer().getCommandMap().register("opentrident", cmd);
+            getLogger().info("Registered /deathmessages command dynamically.");
+        } catch (Exception e) {
+            getLogger().severe("Failed to register /deathmessages command!");
+            e.printStackTrace();
         }
     }
 
