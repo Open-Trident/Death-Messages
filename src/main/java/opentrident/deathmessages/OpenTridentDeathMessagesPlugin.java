@@ -1,5 +1,6 @@
 package opentrident.deathmessages;
 
+import opentrident.deathmessages.commands.DeathMessagesCommand;
 import opentrident.deathmessages.config.VanillaConfig;
 import opentrident.deathmessages.listeners.PlayerDeathListener;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -26,6 +27,14 @@ public class OpenTridentDeathMessagesPlugin extends JavaPlugin {
         // Register Listeners
         getServer().getPluginManager().registerEvents(new PlayerDeathListener(vanillaConfig), this);
         getLogger().info("Registered PlayerDeathListener.");
+
+        // Register Commands
+        if (getCommand("deathmessages") != null) {
+            DeathMessagesCommand commandExecutor = new DeathMessagesCommand(vanillaConfig);
+            getCommand("deathmessages").setExecutor(commandExecutor);
+            getCommand("deathmessages").setTabCompleter(commandExecutor);
+            getLogger().info("Registered /deathmessages command.");
+        }
     }
 
     @Override
